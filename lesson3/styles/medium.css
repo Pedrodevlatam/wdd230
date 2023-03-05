@@ -1,0 +1,19 @@
+
+@media (min-width: 38em){
+
+body{
+  padding: 1.5em;
+  font-size: 1.3em;
+  
+  }
+header img {
+  position: absolute;
+}
+  nav {
+  flex-direction: row;
+  }
+  
+  img {
+  max-width: 30%;
+  }
+  }
