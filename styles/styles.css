@@ -10,7 +10,7 @@ body {
     font-size: 16px;
 }
   
-.header-container {
+header {
     color: rgb(255, 255, 255);
     background-color: #3377aa;
     border-radius: 10px;
@@ -59,7 +59,7 @@ color: blue;
     text-decoration: underline;
   }
   
-.footer-container {
+footer{
     color: rgb(255, 255, 255);
     margin-left: 10px;
     background-color: #3377aa;
@@ -72,5 +72,4 @@ color: blue;
     justify-content: center;
     align-items: center;
   }
-  
   
