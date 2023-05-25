@@ -1,0 +1,359 @@
+*, h1{
+    margin: 0;
+}
+.move-down{
+    margin-top: 3rem;
+
+}
+main{
+    margin: 2rem auto;
+    text-align: center;
+}
+
+#welcome-banner{
+    display: none;
+    background-color: #EFF6EE;
+    border:1px solid #DC493A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    z-index: 2;
+    text-align: center;
+}
+#welcome-banner div p{
+    margin: 0 1.3rem;
+} 
+.close-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    background-color: transparent;
+    color: #273043;
+    
+}
+body{
+    font-family: 'Bitter', serif;
+    background-color: #EFF6EE;
+    color: #273043;
+    font-size: 16px;
+    
+}
+header, footer{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: #EFF6EE;
+    padding: 1.2rem;
+    text-align: center;
+}
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+
+}
+nav{
+    position: relative;
+    
+}
+nav button{
+    margin: .2rem ;
+    background: transparent;
+    font-size: 2rem;
+    color: #D00000;
+    border: none;
+ 
+}
+nav button.open:hover, .close-btn:hover{
+    color:#DC493A
+    
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    
+}
+header div nav.open{
+    width: 60%;
+    height: auto;
+    margin: 0;
+    position:absolute;
+    top: 0;
+    left: 0;
+    /*border: 1px solid #EFF6EE;*/
+    background-color: #5C6479;
+    box-shadow: 0 0 20px 5px #5C6479;
+    transform: translateY(7%);
+    transition: transform 0.5s;
+    z-index: 1;
+    
+}
+nav ul.open{
+    display: block;
+    
+}
+nav ul li a{
+    display: block;
+    padding: 1rem ;
+    text-decoration: none;
+    color: #000000;
+    border-left: 1px solid #000000;
+    font-family:'Montserrat', sans-serif;
+    transition: background-color 0.3s ease;
+
+}
+nav ul li.active a{
+    background-color: #EFF6EE;
+    color: #273043;
+}
+
+nav ul li a:hover{
+    background-color: #D00000;
+    color: #EFF6EE;
+}
+
+#hamburgerBtn span:nth-child(1), 
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+
+}
+#hamburgerBtn span:nth-child(2), 
+#hamburgerBtn.open span:nth-child(1),
+.spotlights div:nth-child(3), 
+.join, .list img{
+    display: none;
+
+}
+.primaryNav{
+    margin-left: auto;
+    overflow: hidden;
+    position: relative;
+}
+hr{
+    margin: 1.5rem;
+    background-color: #5C6479;
+    color: #5C6479;
+}
+
+.logo-img{
+    width: 60px;
+    height: auto;
+    margin: 0 10px;
+}
+.footer-img{
+    width: 270px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    
+}
+#date{
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background: linear-gradient(to right, #D00000, #000000);
+    display: block;
+    font-family: "Bitter", sans-serif;
+}
+.social-media img{
+    width: 30px;
+    height: auto;
+    padding: 0.3rem;
+}
+/*Main*/
+section{
+    margin: 2rem 1.5rem;
+    border: 1px solid #5C6479;
+    background-color: azure;
+    height: auto;
+    box-shadow: 0 0 5px #5C6479;
+
+}
+.spotlights, h4, h3, .hero button, section{
+    padding: 1.2rem;
+}
+.hero{
+    position: relative;
+    padding: 0;
+}
+.hero-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero button{
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    background-color: #5C6479;
+    color: #EFF6EE;
+    box-shadow: 0 1px 30px #222;
+}
+.hero button:hover{
+    background-color: #DC493A;
+    color: #EFF6EE;
+    transform: scale(1.2);
+}
+.hero h2{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: azure;
+    text-shadow: -3px 3px 2px #000;
+    padding: .5rem;
+}
+.weather{
+    font-size: 1.2rem;
+}
+
+.spotlights div, .stocks div{
+    border: 1px solid #273043;    
+    padding: 1.5rem;
+    box-shadow: 0 0 8px #5C6479;
+    
+}
+.spotlights div p, .spotlights div a{
+    font-size: 80%;
+}
+a, .spotlights a, .event a, .discover a, .thankDiv a, .companies a{
+    color: #DC493A;
+    text-decoration: none;
+}
+a{
+    color: #EFF6EE;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #D00000, #000000);
+    color: #ffffff;
+    padding: 1.2rem;
+    text-align: center;
+}
+
+
+/*Discover page*/
+.discover figure, .companies div,.grid div{
+    display: block;
+    border: 1px solid #273043;
+    margin: 1rem;
+    padding: 0.45rem;
+    box-shadow: 0 0 8px #5C6479;
+    background-color: azure;
+
+}
+.discover figure img{
+    width: 90%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.discover figure img[data-src]{
+    filter: blur(0.2em);
+
+}
+.visits-display{
+    padding: 2rem 0;
+}
+
+/*Join page*/
+.joinUs form, .list div{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+    background-color: azure;
+    border: 1px solid #5C6479;
+    box-shadow: 0 0 8px #5C6479;
+    
+}
+fieldset{
+    margin:2rem 0;
+    color: #273043;
+    border-radius: 5px;
+}
+label{
+    display: block;
+    margin: 1rem ;
+    font-size: .90rem;
+    color: #5C6479;
+}
+.top input, textarea{
+    display: block;
+    padding: 0.75rem;
+    background-color: #EFF6EE;
+    color: #273043;
+    width: 90%;
+    font-size: 1rem;
+}
+.top input:required{
+    border: 2px solid #DC493A;
+}
+.top input:required:valid{
+    border: 2px solid #60d394;
+}
+.sendBtn{
+    padding: 1rem ;
+    width: 100%;
+    background-color: #5C6479;
+    color: #EFF6EE;
+}
+.sendBtn:hover, .directory div button:hover{
+    background-color: #DC493A;
+}
+.membershipLevel{
+    border: 1px solid #DC493A;
+    padding: .75rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    color: #273043;
+    font-weight: bold;
+}
+
+.membershipLevel input{
+    height: 20px;
+    width: 20px;
+}
+.membershipLevel span + :checked {
+    color: #DC493A;
+}
+input[type="radio"]:checked{
+   accent-color: #DC493A;
+}
+.membershipInfo div, .thankDiv{
+    border: 1px solid #5C6479;
+    box-shadow: 0 0 8px #5C6479;
+    margin: 1rem;
+    padding: 1rem;
+}
+.thankDiv{
+    margin: 2rem;
+    padding: 5rem;
+    background-color: azure;
+}
+/*Directory*/
+.companies div p, .companies h4, .list div a{
+    padding: .4rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.list div{
+    margin: 0;
+    box-shadow: none;
+    
+}
+.list div:nth-child(even){
+    background-color: #e7eaf2;
+}
+.directory div button{
+    margin: .5rem;
+}

@@ -1,0 +1,155 @@
+<!doctype html>
+    <html lang="en">
+        <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Bogotá Chamber of Commerce Home Page">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">           
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <title>Bogotá Chamber of Commerce</title>
+        </head>
+        <body>
+            <header>
+                <div class="main-header">
+                    <nav>
+                        <button id="hamburgerBtn"> 
+                            <span>&#9776;</span> 
+                            <span>X</span> 
+                        </button>
+                        <ul id="primaryNav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="discover.html">Discover</a></li>
+                            <li><a href="directory.html">Directory</a></li>
+                            <li><a href="join.html">Join</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="logo">
+                    <img src="images/logo_bogota_chamber_of_commerce.png" alt="Bogotá Chamber of Commerce">
+                    <div class="headings">
+
+                    </div>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook icon"></a>
+                        <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="linkedin icon"></a>
+                    </div>
+                    
+                </div>
+                <span id="date"></span>
+            </header>
+            <main>
+                <div id="welcome-banner">
+                    <div>
+                        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+                        <button class="close-btn">x</button>
+                    </div>
+                    
+                </div>
+                <section class="hero">
+                    <picture>
+                        <source media="(max-width: 704px)" srcset="images/La_plaza500.jpg">
+                        <source media="(max-width: 1024px)" srcset="images/La_plaza800.jpg">
+                        <img class="hero-img" src="#" alt="image city">
+                    </picture>
+                    <!-- <picture>
+                        <source media="(max-width: 704px)" srcset="images/wdd230-org-small.jpg">
+                        <source media="(max-width: 1024px)" srcset="images/wdd230-org-medium.jpg">
+                        <img class="hero-img" src="images/wdd230-org-large.jpg" alt="wdd230 org">
+                    </picture> -->
+
+                    <h2>Welcome to Bogotá</h2>
+                    <button><b>Join the Chamber</b></button>
+                </section>
+                <section class="event">
+                    <h3>5th Anniversary of the School of Arts and Crafts</h3>
+                    <p>Come to celebrate with us the Anniversary of the School of Arts and Crafts. This Saturday at 5:00 p.m.</p>
+                    <a href="#">more info...</a>
+                </section>
+
+                <section class="weather">
+                    <h3>Weather</h3>
+                    <div>
+                        <div class="weather-temp">
+                            <img src="" alt="" id="weather-icon" width="100">
+                            <h2><span id="temperature"></span>°C</h2>
+                        </div>
+                        <h4 class="description"></h4>
+                        <hr>
+                        <!-- <p>☔ Precipitation: 58%</p>
+                        <p>💧 Humidity: 83%</p> -->
+                        <p>🍃 Wind Speed: <span id="wind-speed"></span>m/s</p>
+                        <p>🧊 Wind Chill: <span class="wind-chill"></span></p>
+                    </div>
+                </section>
+                
+                <section class="news">
+                    <h3>News ReLease</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi veniam nemo maxime! Optio, tempore perspiciatis nam dolore id delectus cum vero veniam voluptatum culpa, eligendi in temporibus dicta odit numquam?</p>
+                </section>
+                <section class="spotlights">
+
+                            <div>
+                                <h4>Mis Mates</h4>
+                                <img src="images/icons8-mate-100.png" alt="Mate icon by Icons8">
+                                <p>Souvenirs Store</p>
+                                <hr>
+                                <a href="#">mismatesstore@domain.com</a>
+                                <p>+54 222 2222-222 | Website</p>
+                            </div>
+                            
+                            <div>
+                                <h4>House Reparations</h4>
+                                <img src="images/icons8-caja-de-almacenamiento-de-herramientas-completa-96.png" alt="Caja de almacenamiento de herramientas completa icon by Icons8">
+                                <p>We are certificated</p>
+                                <hr>
+                                <a href="#">housereparations@domain.com</a>
+                                <p>+54 222 2222-222 | Website</p>
+                            </div>
+                            
+                            <div>
+                                <h4>Sanji's </h4>
+                                <img src="images/icons8-comedor-96.png" alt="Comedor icon by Icons8">
+                                <p>Food Restaurant. Catering. Events</p>
+                                <hr>
+                                <a href="#">sanjisfood@domain.com</a>
+                                <p>+54 222 2222-222 | Website</p>
+                            </div>
+                    
+                </section>
+                <section class="join">
+                    <button><b>Join us!</b></button>
+                    <h4>Discover how to join the chamber of commerce and how it will benefit your organization</h4>
+                </section>
+            </main>
+            <footer>
+                
+                <img class="logo-img footer-img" src="images/logo_bogota_chamber_of_commerce_w.png" alt="logo">
+                
+                <h3>Bogota,Colombia</h3>
+                
+                
+                <div class="contact-info">    
+                    <br>
+                    <a href="#">📧 info@bogotacc.org</a><br><br>
+                    <a href="#">📞 +57 0800-5555</a><br><br>
+                    <a href="https://goo.gl/maps/jBBqnXo9mmQCJbtm8" target="_blank">📌Location Map</a>
+                </div>
+
+                <div class="copyright">
+                    <hr>
+                    &copy; <span id="year"></span> Bogotá Chamber | <b>Pedro Mendieta</b> | WDD 230 Project |
+                    <span id="last-update"></span>
+                </div>
+            </footer>
+            <script src="scripts/app.js"></script>
+            <script src="scripts/weather.js"></script>
+        </body>
+    </html>
