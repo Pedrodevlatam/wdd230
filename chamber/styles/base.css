@@ -35,28 +35,30 @@ main{
     
 }
 body{
-    font-family: 'Bitter', serif;
-    background-color: #EFF6EE;
+    width: 100%;
+    font-family: 'Montserrat';
+    background-color: #ffffff;
     color: #273043;
     font-size: 16px;
     
 }
+footer{
+    background: linear-gradient(to right, #D00000, #000000);
+}
+
 header, footer{
     font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff;
-    color: #EFF6EE;
-    padding: 1.2rem;
+    color: #ffffff;
+    padding-top: 1.2rem;
     text-align: center;
 }
 .main-header{
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-
+    justify-content: space-between;
 }
 nav{
-    position: relative;
-    
+    position: relative;    
 }
 nav button{
     margin: .2rem ;
@@ -67,7 +69,7 @@ nav button{
  
 }
 nav button.open:hover, .close-btn:hover{
-    color:#DC493A
+    color: #D00000;
     
 }
 nav ul{
@@ -78,26 +80,27 @@ nav ul{
     
 }
 header div nav.open{
-    width: 60%;
+    width:100%;
     height: auto;
     margin: 0;
     position:absolute;
+    float: inline-end;
     top: 0;
     left: 0;
-    /*border: 1px solid #EFF6EE;*/
-    background-color: #5C6479;
-    box-shadow: 0 0 20px 5px #5C6479;
+    background-color:#ffffff;
+    box-shadow: 0 0 20px 5px #919296;
     transform: translateY(7%);
     transition: transform 0.5s;
     z-index: 1;
     
 }
 nav ul.open{
-    display: block;
+    display:block;
     
 }
 nav ul li a{
-    display: block;
+    border-top: 2px solid rgb(255, 227, 227);
+    display: flex;
     padding: 1rem ;
     text-decoration: none;
     color: #000000;
@@ -117,15 +120,28 @@ nav ul li a:hover{
 }
 
 #hamburgerBtn span:nth-child(1), 
-#hamburgerBtn.open span:nth-child(2) {
-    display: block;
+#hamburgerBtn.open span:nth-child(2),
+nav ul.open,
+nav ul li a,
+#date,
+.discover figure, 
+.companies div,
+.grid div, 
+.top input,
+textarea,
+label {
+display: block;
 
 }
 #hamburgerBtn span:nth-child(2), 
 #hamburgerBtn.open span:nth-child(1),
 .spotlights div:nth-child(3), 
-.join, .list img{
-    display: none;
+#welcome-banner,
+nav ul,
+.join, 
+.list img, 
+.img-contact{
+display: none;
 
 }
 .primaryNav{
@@ -138,14 +154,12 @@ hr{
     background-color: #5C6479;
     color: #5C6479;
 }
-
 .logo-img{
-    width: 60px;
+    width: 50px;
     height: auto;
-    margin: 0 10px;
 }
 .footer-img{
-    width: 270px;
+    width: 170px;
 }
 .logo{
     display: flex;
@@ -164,6 +178,7 @@ hr{
     font-family: "Bitter", sans-serif;
 }
 .social-media img{
+    order: 3;
     width: 30px;
     height: auto;
     padding: 0.3rem;
@@ -189,19 +204,24 @@ section{
     height: 100%;
     object-fit: cover;
 }
-.hero button{
+.hero button {
     position: absolute;
     bottom: 40px;
     right: 30px;
-    background-color: #5C6479;
+    background-color: rgba(255, 0, 0, 0.8);
     color: #EFF6EE;
-    box-shadow: 0 1px 30px #222;
-}
-.hero button:hover{
-    background-color: #DC493A;
-    color: #EFF6EE;
-    transform: scale(1.2);
-}
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .hero button:hover {
+    background-color: #D00000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    transform: scale(1.1);
+  }
 .hero h2{
     position: absolute;
     top: 10px;
@@ -223,25 +243,16 @@ section{
 .spotlights div p, .spotlights div a{
     font-size: 80%;
 }
-a, .spotlights a, .event a, .discover a, .thankDiv a, .companies a{
+a, .spotlights a, .event a, .discover a, .thankDiv a, .companies a, .contactUs a{
     color: #DC493A;
     text-decoration: none;
 }
 a{
     color: #EFF6EE;
 }
-footer{
-    font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(to right, #D00000, #000000);
-    color: #ffffff;
-    padding: 1.2rem;
-    text-align: center;
-}
-
 
 /*Discover page*/
 .discover figure, .companies div,.grid div{
-    display: block;
     border: 1px solid #273043;
     margin: 1rem;
     padding: 0.45rem;
@@ -263,7 +274,7 @@ footer{
 }
 
 /*Join page*/
-.joinUs form, .list div{
+.joinUs form, .list div, .contactUs form{
     margin: 1rem;
     padding: 1rem;
     text-align: left;
@@ -278,18 +289,17 @@ fieldset{
     border-radius: 5px;
 }
 label{
-    display: block;
     margin: 1rem ;
     font-size: .90rem;
     color: #5C6479;
 }
 .top input, textarea{
-    display: block;
     padding: 0.75rem;
     background-color: #EFF6EE;
     color: #273043;
     width: 90%;
     font-size: 1rem;
+    outline: none;
 }
 .top input:required{
     border: 2px solid #DC493A;

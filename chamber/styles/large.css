@@ -1,7 +1,6 @@
 @media only screen and (min-width: 64rem) {
 
     body{
-        margin: 0 5%;
         font-size: 16px;
     }
     .move-down{
@@ -13,7 +12,7 @@
     nav ul#primaryNav{
         display: flex;
         box-shadow: 0 0 10px #EFF6EE;
-
+        justify-content: center;
     }
     nav ul li a{
         border: none;
