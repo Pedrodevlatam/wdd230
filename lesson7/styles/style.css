@@ -1,0 +1,21 @@
+*{
+    text-align: center;
+}
+img[data-src]{
+    filter: blur(0.2em);
+}
+img{
+    display: block;
+    margin: 1rem auto;
+
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+h1 {
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to right, #ff00ff, #00ffff);
+  }
