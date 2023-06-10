@@ -186,10 +186,9 @@ hr{
 /*Main*/
 section{
     margin: 2rem 1.5rem;
-    border: 1px solid #5C6479;
-    background-color: azure;
+    background-color: #cd000012;
     height: auto;
-    box-shadow: 0 0 5px #5C6479;
+    box-shadow: 0 0 5px #757f99;
 
 }
 .spotlights, h4, h3, .hero button, section{
@@ -234,9 +233,9 @@ section{
     font-size: 1.2rem;
 }
 
-.spotlights div, .stocks div{
-    border: 1px solid #273043;    
+.spotlights div, .stocks div{   
     padding: 1.5rem;
+    background: #ffffff;
     box-shadow: 0 0 8px #5C6479;
     
 }
@@ -253,18 +252,26 @@ a{
 
 /*Discover page*/
 .discover figure, .companies div,.grid div{
-    border: 1px solid #273043;
     margin: 1rem;
-    padding: 0.45rem;
-    box-shadow: 0 0 8px #5C6479;
-    background-color: azure;
+    padding: 1.5rem;
+    box-shadow: 0 0 5px #757f99;
+    background-color: #fbeded;
+    text-align: justify;
+}
 
-}
 .discover figure img{
-    width: 90%;
-    filter: blur(0em);
-    transition: filter 0.5s;
+    float: right;
+    margin: 15px;    
+    
 }
+
+
+.discover_paragraph{
+    padding: 1rem;
+}
+
+
+
 .discover figure img[data-src]{
     filter: blur(0.2em);
 
@@ -278,7 +285,7 @@ a{
     margin: 1rem;
     padding: 1rem;
     text-align: left;
-    background-color: azure;
+    background-color: #fbeded;
     border: 1px solid #5C6479;
     box-shadow: 0 0 8px #5C6479;
     
@@ -367,3 +374,11 @@ input[type="radio"]:checked{
 .directory div button{
     margin: .5rem;
 }
+
+@media (min-width: 300px) and (max-width: 930px) {
+    figure img {
+      width: -webkit-fill-available;
+    }
+  }
+  
+  
