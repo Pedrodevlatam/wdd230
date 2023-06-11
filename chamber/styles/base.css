@@ -243,9 +243,15 @@ section{
     font-size: 80%;
 }
 a, .spotlights a, .event a, .discover a, .thankDiv a, .companies a, .contactUs a{
-    color: #DC493A;
+    color: #000000;
     text-decoration: none;
 }
+.spotlight1 img,
+.spotlight2 img,
+.spotlight3 img{
+    width: -webkit-fill-available;
+  }
+
 a{
     color: #EFF6EE;
 }
@@ -261,10 +267,8 @@ a{
 
 .discover figure img{
     float: right;
-    margin: 15px;    
-    
+    margin: 15px;       
 }
-
 
 .discover_paragraph{
     padding: 1rem;
