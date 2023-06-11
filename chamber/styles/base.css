@@ -209,7 +209,7 @@ section{
     right: 30px;
     background-color: rgba(255, 0, 0, 0.8);
     color: #EFF6EE;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
     border-radius: 5px;
     padding: 10px 20px;
     border: none;
@@ -217,8 +217,8 @@ section{
   }
   
   .hero button:hover {
-    background-color: #D00000;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    background-color: #af0202;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
     transform: scale(1.1);
   }
 .hero h2{
@@ -273,9 +273,6 @@ a{
 .discover_paragraph{
     padding: 1rem;
 }
-
-
-
 .discover figure img[data-src]{
     filter: blur(0.2em);
 
@@ -289,8 +286,7 @@ a{
     margin: 1rem;
     padding: 1rem;
     text-align: left;
-    background-color: #fbeded;
-    border: 1px solid #5C6479;
+    background-color: #cd000012;
     box-shadow: 0 0 8px #5C6479;
     
 }
@@ -306,26 +302,36 @@ label{
 }
 .top input, textarea{
     padding: 0.75rem;
-    background-color: #EFF6EE;
+    background-color: #ffffff;
     color: #273043;
     width: 90%;
     font-size: 1rem;
     outline: none;
 }
 .top input:required{
-    border: 2px solid #DC493A;
+    border: 1px solid #bd1300;
 }
 .top input:required:valid{
-    border: 2px solid #60d394;
+    border: 2px solid #ffc400;
 }
 .sendBtn{
     padding: 1rem ;
     width: 100%;
-    background-color: #5C6479;
+
+    bottom: 40px;
+    right: 30px;
+    background-color: rgba(255, 0, 0, 0.8);
     color: #EFF6EE;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    transition: all 0.3s ease;
+
 }
 .sendBtn:hover, .directory div button:hover{
-    background-color: #DC493A;
+    background-color: #af0202;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
 }
 .membershipLevel{
     border: 1px solid #DC493A;
@@ -349,15 +355,15 @@ input[type="radio"]:checked{
    accent-color: #DC493A;
 }
 .membershipInfo div, .thankDiv{
-    border: 1px solid #5C6479;
-    box-shadow: 0 0 8px #5C6479;
+    box-shadow: 0 0 6px #5C6479;
     margin: 1rem;
     padding: 1rem;
 }
 .thankDiv{
+    font-size: 18px;
     margin: 2rem;
-    padding: 5rem;
-    background-color: azure;
+    padding: 3rem;
+    background-color: #cd000012;
 }
 /*Directory*/
 .companies div p, .companies h4, .list div a{
