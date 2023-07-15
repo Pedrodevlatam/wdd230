@@ -1,0 +1,103 @@
+<!doctype html>
+    <html lang="en">
+        <head> 
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Bogotá Chamber of Commerce Home Page">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">           
+            <!-- Favicon week 05-->
+            <link rel="icon"  href="images/favicon.ico">
+            <link rel="stylesheet" href="styles/normalize.css">
+            <link rel="stylesheet" href="styles/base.css">
+            <link rel="stylesheet" href="styles/medium.css">
+            <link rel="stylesheet" href="styles/large.css">
+            <title>Bogotá Chamber of Commerce</title>
+            </head>
+            <body>
+                <header>
+                    <div class="main-header">
+                        <nav>
+                            <button id="hamburgerBtn"> 
+                                <span>&#9776;</span> 
+                                <span>X</span> 
+                            </button>
+                            <ul id="primaryNav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="discover.html">Discover</a></li>
+                                <li><a href="directory.html">Directory</a></li>
+                                <li><a href="join.html">Join</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="logo">
+                        <img src="images/logo_bogota_chamber_of_commerce.webp" alt="Bogotá Chamber of Commerce">
+                        <div class="headings">
+    
+                        </div>
+                        </div>
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook icon"></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="linkedin icon"></a>
+                        </div>
+                        
+                    </div>
+                    <span id="date"></span>
+                </header>
+    <main class="contactUs">
+        <div id="welcome-banner">
+            <div>
+                <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+                <button class="close-btn">x</button>
+            </div>
+        </div>
+        <div class="banner-image-container">
+            <img class="img-contact" src="images/centro_de_Bogota_de_noche.png" alt="Bogotá Chamber of Commerce Building" loading="lazy">
+        </div>
+        <section>
+            <h4>Contact Us</h4>
+            <p>Av El Dorado # 68D-35 (Bogotá), Colombia</p>
+            <p><a href="mailto:info@bogotacc.org">info@bogotacc.org</a></p>
+            <p><a href="tel:+5708005555">📞 +57 0800-5555</a></p>
+            <hr>
+            <h5>Media questions</h5>
+            <p><a href="mailto:bogotaccmedia@help.com">bogotaccmedia@help.com</a></p>
+            <p><a href="tel:+5708009999">📞 +57 0800-9999</a></p>
+        </section>
+        <form method="get">
+            <fieldset>
+                <legend>Leave us a message</legend>
+                <label class="top">First Name: <input type="text" name="fname"></label>
+                <label class="top">E-mail<input type="email" name="email" placeholder="example@domain.com"></label> 
+                <label>Enter your message: <textarea></textarea></label>
+            </fieldset>
+            <label><input type="hidden" name="timeSend" id="formDateSend"></label>
+            <label><input type="submit" name="sendBtn" value="Send Message" class="sendBtn sendMsg"></label>
+        </form> 
+    </main>
+    <footer>
+                
+        <img class="logo-img footer-img" src="images/logo_bogota_chamber_of_commerce_w.png" alt="logo">
+        
+        <h3>Bogota,Colombia</h3>
+        
+        
+        <div class="contact-info">    
+            <br>
+            <a href="#">📧 info@bogotacc.org</a><br><br>
+            <a href="#">📞 +57 0800-5555</a><br><br>
+            <a href="https://goo.gl/maps/jBBqnXo9mmQCJbtm8" target="_blank">📌Location Map</a>
+        </div>
+
+        <div class="copyright">
+            <hr>
+            &copy; <span id="year"></span> Bogotá Chamber | <b>Pedro Mendieta</b> | WDD 230 Project |
+            <span id="last-update"></span>
+        </div>
+    </footer>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/visits.js"></script>
+</body>
+</html>

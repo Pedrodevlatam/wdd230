@@ -139,11 +139,18 @@ display: block;
 #welcome-banner,
 nav ul,
 .join, 
-.list img, 
-.img-contact{
+.list img{
 display: none;
-
 }
+.img-contact {
+    max-width: 100%;
+}
+.contactUs section, .contactUs form {
+    padding: 0 1rem; 
+}
+
+
+
 .primaryNav{
     margin-left: auto;
     overflow: hidden;
