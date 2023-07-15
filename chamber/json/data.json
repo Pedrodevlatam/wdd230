@@ -1,0 +1,95 @@
+{
+    "companies": [
+      {
+        "name": "Bancolombia",
+        "address": "Calle 30A #6-38, Medellín",
+        "phonenumber": "+57 4 404 1837",
+        "websiteurl": "https://www.grupobancolombia.com/",
+        "email": "servicioalcliente@bancolombia.com.co",
+        "logoimg": "images/logo-grupo-bancolombia.png",
+        "membershiplevel": "non profit"
+      },
+      {
+        "name": "Ecopetrol",
+        "address": "Carrera 13 #36-24, Bogotá",
+        "phonenumber": "+57 1 234 5000",
+        "websiteurl": "https://www.ecopetrol.com.co/",
+        "email": "contacto@ecopetrol.com.co",
+        "logoimg": "images/Logo_Ecopetrol.png",
+        "membershiplevel": "bronze"
+      },
+      {
+        "name": "Grupo Éxito",
+        "address": "Calle 53 #68A-31, Medellín",
+        "phonenumber": "+57 4 604 9696",
+        "websiteurl": "https://www.grupoexito.com.co/",
+        "email": "contactenos@grupoexito.com.co",
+        "logoimg": "images/Logo_grupo éxito_0.png",
+        "membershiplevel": "bronze"
+      },
+      {
+        "name": "Avianca Holdings",
+        "address": "Calle 26 #59-15, Bogotá",
+        "phonenumber": "+57 1 401 3434",
+        "websiteurl": "https://www.avianca.com/",
+        "email": "rafael.romero@archroma.com",
+        "logoimg": "images/Avianca_Logo.png",
+        "membershiplevel": "silver"
+      },
+      {
+        "name": "Grupo Aval Acciones y Valores S.A.",
+        "address": "Carrera 13 #27-47, Bogotá",
+        "phonenumber": "+57 1 241 6800",
+        "websiteurl": "https://www.grupoaval.com/",
+        "email": "contacto@grupoaval.com",
+        "logoimg": "images/Logo_bancosAval.png",
+        "membershiplevel": "gold"
+      },
+      {
+        "name": "Grupo Nutresa",
+        "address": "Carrera 43A #11-34, Medellín",
+        "phonenumber": "+57 4 514 5000",
+        "websiteurl": "https://www.gruponutresa.com/",
+        "email": "contacto@gruponutresa.com.co",
+        "logoimg": "images/Grupo-Nutresa-logo-bg.png",
+        "membershiplevel": "non profit"
+    },
+    {
+        "name": "Grupo Argos",
+        "address": "Calle 77B #57-62, Medellín",
+        "phonenumber": "+57 4 322 2000",
+        "websiteurl": "https://www.grupoargos.com/",
+        "email": "contacto@grupoargos.com.co",
+        "logoimg": "images/logo-grupo-argos-horizontal-color-632cc9b128f50.png",
+        "membershiplevel": "bronze"
+    },
+    {
+        "name": "Grupo Bolívar",
+        "address": "Carrera 9 #74-99, Bogotá",
+        "phonenumber": "+57 1 646 0808",
+        "websiteurl": "https://www.grupobolivar.com.co/",
+        "email": "contacto@grupobolivar.com.co",
+        "logoimg": "images/logo-grupo-bolivar.png",
+        "membershiplevel": "bronze"
+    },
+    {
+        "name": "ISA Interconexión Eléctrica S.A.",
+        "address": "Calle 12 #34-12, Medellín",
+        "phonenumber": "+57 4 444 1100",
+        "websiteurl": "https://www.isa.co/",
+        "email": "contacto@isa.com.co",
+        "logoimg": "images/Logo_Interconexión_Eléctrica.png",
+        "membershiplevel": "silver"
+    },
+    {
+        "name": "Banco de Bogotá",
+        "address": "Carrera 7 #32-72, Bogotá",
+        "phonenumber": "+57 1 343 0909",
+        "websiteurl": "https://www.bancodebogota.com/",
+        "email": "contacto@bancodebogota.com.co",
+        "logoimg": "images/Banco_de_Bogotá_logo.png",
+        "membershiplevel": "gold"
+    }
+
+]
+}

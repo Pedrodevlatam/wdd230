@@ -384,11 +384,3 @@ input[type="radio"]:checked{
 .directory div button{
     margin: .5rem;
 }
-
-@media (min-width: 300px) and (max-width: 930px) {
-    figure img {
-      width: -webkit-fill-available;
-    }
-  }
-  
-  
