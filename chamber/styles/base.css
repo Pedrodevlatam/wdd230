@@ -196,9 +196,16 @@ section{
     background-color: #cd000012;
     height: auto;
     box-shadow: 0 0 5px #757f99;
-
 }
-.spotlights, h4, h3, .hero button, section{
+.spotlights{
+    background-color: #cd000012;
+    height: auto;
+    box-shadow: 0 0 5px #757f99;
+}
+
+
+
+.spotlights, h4, h3, .hero button, section {
     padding: 1.2rem;
 }
 .hero{
