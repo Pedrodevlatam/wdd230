@@ -1,0 +1,777 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+  }
+  
+  main,
+  nav,
+  .footer-end {
+    text-align: center;
+    color: #135E2C;
+  }
+  header {
+    padding: 1rem;
+    background-color: #ffffff;
+    color: #d00563;
+  }
+  footer {
+    padding: 1rem;
+    background-color: #1fa54c;
+    color: #ffffff;
+
+  }
+
+
+  header,
+  footer,
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-end hr {
+    border: 1px solid #ffffff;
+  }
+  
+  footer img {
+    width: 60px;
+  }
+  
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+  
+  .address {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+  .inside-link {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  
+  .social-link {
+    grid-column: 3/4;
+    grid-row: 1/3;
+    justify-self: center;
+  }
+  
+  .footer-end {
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
+  
+  #logo {
+    width: 100px;
+    border-radius: 0; 
+    margin-right: 1.5rem;
+  }
+  
+  header div,
+  .icons div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /*Navigation*/
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li a,
+  main a,
+  .sendMsg,
+  .sendBtn,
+  .cancel,
+  .confirm {
+    text-decoration: none;
+    color: #39375b;
+    padding: 0.5rem;
+    background: none;
+    transition: 0.5s;
+    
+  }
+
+
+  nav ul li a:hover,
+  main a:hover,
+  .sendMsg:hover,
+  .sendBtn:hover,
+  .cancel:hover,
+  .confirm:hover {
+    background-color: #d00563;
+  }
+  
+  #hamburgerBtn {
+    font-size: 1.5rem;
+    background: transparent;
+    font-weight: bold;
+    border: none;
+    color: #d00563;
+    border-radius: 0; 
+  }
+  
+  /*Display blocks/none*/
+  #hamburgerBtn span:nth-child(2),
+  #hamburgerBtn.open span:nth-child(1),
+  nav ul,
+  .mySlides,
+  .fresh-img,
+  .weather-img,
+  .social,
+  .products,
+  .confirmation,
+  .confirm,
+  .drink {
+    display: none;
+  }
+  
+  #hamburgerBtn span:nth-child(1),
+  #hamburgerBtn.open span:nth-child(2),
+  nav ul.open,
+  nav ul li a,
+  main a,
+  label,
+  .top input,
+  textarea,
+  footer img {
+    display: block;
+  }
+  
+  .mySlides img,
+  .img-banner,
+  .top input,
+  textarea,
+  .img-question,
+  .sendMsg,
+  .fresh-juice,
+  .map iframe {
+    width: 100%;
+  }
+  
+
+  .main a,
+  .sendMsg,
+  .sendBtn,
+  .cancel,
+  .confirm {
+    background-color: #d00563;
+    color: #135E2C;
+    font-weight: bold;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  }
+  .total-drinks {
+    color: #d00563;
+    font-weight: bold;
+
+  }
+
+
+  footer a:hover,
+  nav ul li a:hover,
+  main a:hover,
+  .sendMsg:hover,
+  .sendBtn:hover,
+  .cancel:hover,
+  .confirm:hover,
+  .hero div,
+  .text,
+  .numbertext {
+    color: #ffffff;
+  }
+  
+  /*Main Content*/
+  main {
+    font-size: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  
+  img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  form {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 0px solid #efefef;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    background: #e6ffec;
+  }
+
+
+
+  
+  textarea {
+    height: 10rem;
+  }
+  
+  fieldset {
+    margin: 1rem 0;
+  }
+  
+  label {
+    font-size: 1.2rem;
+  }
+  
+  .top input,
+  textarea {
+    outline: none;
+    padding: 0.75rem;
+  }
+  
+  /*HOME*/
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .hero picture {
+    grid-column: 1/4;
+    grid-row: 1/4;
+  }
+  
+  .hero div {
+
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 1rem;
+  color: #079b39;
+  z-index: 1;
+  text-align: left;
+  margin-left: 1rem;
+
+}
+
+
+
+  
+  .img-banner {
+    opacity: 0.9;
+  }
+  
+
+
+  
+  section,
+  .icons,
+  .fresh-redirect,
+  main a,
+  .form
+  .img-owner,
+  .cancel,
+  .confirm,
+  .sendBtn,
+  .drink,
+  .fresh-juice,
+  .sendMsg {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 0px solid #efefef;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    background: #e6ffec;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .weather-temp {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .three-days,
+  .about-social,
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .three-days div,
+  hr {
+        margin: 0.3rem;
+        font-size: 15px;
+        border: 1px solid #4CAF50;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover,
+  .text,
+  .numbertext {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Caption text */
+  .text,
+  .numbertext {
+    padding: 8px 12px;
+    position: absolute;
+  }
+  
+  .text {
+    bottom: 8px;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    font-size: 12px;
+    top: 0;
+    z-index: 1;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /*-------------FRESH------------*/
+  .fresh {
+    position: relative;
+  }
+  
+  .fruits-lst {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+  
+  .fruits-lst label {
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+  }
+  
+  .fruits-lst label input {
+    margin-right: 0.5rem;
+  }
+  
+  .confirmation {
+    position: fixed;
+    background-color: rgb(113, 113, 113, 0.5);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+  }
+  
+  .confirmation form {
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    right: 10%;
+    background-color: #fff;
+  }
+  
+  .sendBtn,
+  .fresh-juice,
+  .sendMsg {
+    width: 80%;
+  }
+  
+  .sendBtn,
+  .sendMsg {
+    height: 3rem;
+    margin-left: 2.5rem;
+  }
+  
+  /*About US page*/
+  .contact-info a {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .contact-info img {
+    width: 50px;
+    margin: 0.5rem 0;
+  }
+  
+  .about-questions {
+    margin: 2rem 0;
+  }
+  
+  /*Media Queries for medium and large views*/
+  /*-----MEDIUM VIEW-----*/
+  @media only screen and (min-width: 44rem) 
+  
+   
+  
+  {
+    header,
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-size: 2rem;
+    }
+    .hero div {
+        font-size: 0.8rem;
+        margin-left: 2rem;
+        }
+   
+    main,
+    footer {
+      font-size: 22px;
+    }
+    #logo {
+      width: 50%;
+    }
+    .hero div h2,
+    .hero div h3 {
+      font-size: 3rem;
+    }
+    .home,
+    .owner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .icons {
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+    .questions {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+    .news,
+    .total-drinks {
+      grid-column: 1/3;
+    }
+    .weather-img {
+      display: block;
+      width: 100%;
+    }
+    .fresh-img {
+      display: block;
+      width: 350px;
+      margin: -50px;
+    }
+    .fresh-redirect {
+      grid-column: 1/3;
+      grid-row: 1/2;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      align-items: center;
+    }
+    .fresh-redirect h3,
+    .fresh-redirect div {
+      grid-column: 1/2;
+    }
+  
+    .weather-div {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      border: none;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      margin-bottom: 60px;
+    }
+    .weather-info {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 0px solid #39375b;
+      box-shadow: 0 0 10px 1px #39375b;
+      border-radius: 10px;
+      position: absolute;
+      top: 45px;
+      left: 20px;
+    }
+    .slideshow-container {
+      margin: 0 auto;
+    }
+  
+    /*------FRESH-------*/
+    /*----ABOUT US------*/
+    .owner h3 {
+      grid-column: 1/3;
+      grid-row: 1/2;
+    }
+    .img-owner {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      width: 90%;
+    }
+    .owner p {
+      grid-column: 2/3;
+      grid-row: 2/3;
+      align-self: center;
+    }
+  
+    .address {
+      grid-row: 1/3;
+    }
+    .inside-link {
+      grid-column: 3/4;
+      grid-row: 2/3;
+      justify-self: center;
+    }
+  
+    .social-link {
+      grid-row: 1/2;
+      display: flex;
+    }
+  }
+  
+  /*-------LARGE VIEW-------*/
+  
+  @media only screen and (min-width: 64rem) {
+    header,
+    h2,
+    h3,
+    h4 {
+      font-size: 1.3rem;
+    }
+
+    .hero div {
+    font-size: 0.5rem;
+    margin-left: 5rem;
+    }
+
+
+
+    main,
+    footer {
+      font-size: 18px;
+    }
+    #logo {
+      width: 50%;
+    }
+    header {
+      width: 100%;
+      background-color: #ffffff;
+      display: inline-flex;
+      justify-content: center;
+      align-items: self-end;
+    }
+  
+    #hamburgerBtn {
+      display: none;
+    }
+  
+    #primaryNav {
+      display: flex;
+      padding: 0 50px;
+    }
+  
+    .top input {
+      padding: 0.40rem;
+    }
+  
+    nav ul li a {
+      background-color: #ffffff;
+      color: #079b39;
+    }
+  
+    .social,
+    .products,
+    .drink {
+      display: block;
+    }
+  
+    .social a img {
+      width: 40px;
+    }
+  
+    .home {
+      margin: 0 5rem;
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 0.5rem;
+    }
+    .products {
+      grid-column: 2/10;
+      grid-row: 1/2;
+      margin: 1.5rem 0;
+    }
+    .products img {
+      padding: 1rem;
+    }
+    .products img:hover {
+      transform: scale(1.1);
+    }
+  
+    .fresh-redirect {
+      grid-column: 1/11;
+      grid-row: 3/4;
+      margin-bottom: 30px;
+    }
+    .weather-div {
+      grid-column: 1/11;
+      grid-row: 4/5;
+      margin-bottom: 30px;
+    }
+    .weather-img,
+    .img-question {
+        border: 10px solid #ffffff;
+        box-shadow: 0 0 10px 1px #dddddd;
+      }
+    .news {
+      grid-column: 1/7;
+      grid-row: 5/8;
+    }
+    .total-drinks {
+      grid-column: 7/11;
+      grid-row: 5/6;
+    }
+    .icons {
+      grid-column: 7/11;
+      grid-row: 6/7;
+    }
+    .questions {
+      grid-column: 7/11;
+      grid-row: 7/8;
+    }
+  
+    .fresh {
+      margin: 1rem 10rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .aboutus {
+      margin: 1rem 10rem;
+      display:inline-block;
+      grid-template-columns: 1fr 1fr;
+    
+    }
+    /*----- FRESH -----*/
+    .form1 {
+      grid-column: 1/2;
+      grid-row: 1/4;
+    }
+    .drink,
+    .fresh-juice,
+    .display {
+      width: 100%;
+      align-self: center;
+    }
+    .confirmation form {
+      left: 30%;
+      right: 30%;
+    }
+    /*----- ABOUT US -----*/
+    .owner {
+      grid-column: 1/3;
+      grid-row: 1/2;
+    }
+    .mission {
+      grid-column: 1/3;
+      grid-row: 2/3;
+    }
+    .img-question {
+      grid-column: 1/3;
+      grid-row: 4/5;
+      z-index: -1;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .contact-info {
+      grid-column: 1/4;
+      grid-row: 4/5;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+    .map {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+    .map iframe {
+      margin-top: 2rem;
+    }
+    .about-questions {
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+    .about-questions form {
+      background-color: #e6ffec;
+    }
+    .about-questions h3 {
+      color: #135e2c;
+    }
+  }
+  

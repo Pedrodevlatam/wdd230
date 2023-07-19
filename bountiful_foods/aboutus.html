@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods Home page for wdd230 final project">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Bountiful Foods</title>
+</head>
+        <body>
+            <header>
+                <div>
+                    <a href="index.html"><img src="images/bountiful-foods-logo.jpg" alt="bountiful foods logo" id="logo" loading="lazy"></a>
+                    <!--<h1>Bountiful Foods</h1>-->
+                    
+                    <button id="hamburgerBtn"> 
+                        <span>&#9776;</span> 
+                        <span>X</span> 
+                    </button>
+                </div>
+                <nav>    
+                    <ul id="primaryNav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="fresh.html">Fresh</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-nuevo-96.png" alt="facebook icon from icons8"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/icons8-instagram-96.png" alt="instagram icon from icons8"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/icons8-twitter-circled-96.png" alt="twitter icon from icons8"></a><br>
+                </div>    
+            </header>
+            <main class="aboutus">
+                <section class="owner">
+                    <h3>Our Story</h3>
+                    <picture>
+                        <source media="(max-width: 704px)" srcset="images/ourstory-small.webp">
+                        <source media="(max-width: 1024px)" srcset="images/ourstory-medium.webp">
+                        <img class="img-owner" src="images/ourstory-min.webp" alt="Owner Smiling" loading="lazy">
+                    </picture>
+
+                    <p>In the heart of Carlsbad, California, Bountiful Foods was born out of a shared passion for wholesome living and a deep-rooted
+                    commitment to environmental preservation. Our journey began with the dream of offering the finest selection of organic products 
+                    directly sourced from local farmers and trusted national and international providers. From our modest beginnings, we set out 
+                    on a mission to cater to health-conscious individuals like Linda, who seek natural and revitalizing delights to complement their 
+                    balanced lifestyles, and culinary enthusiasts like Zhongli, who yearn for a reliable source of premium organic ingredients to craft 
+                    delectable dishes. With each step we've taken, we've nurtured a strong focus on quality assurance and the creation of agrochemical-free, 
+                    freshly prepared, and made-to-order organic offerings that embody the values of wellness, sustainability, and mindful consumption.
+                    </p>
+                </section>
+                <section class="mission">
+                    <h3>Our Mission</h3>
+                    <p>At Bountiful Foods, our mission is deeply rooted in the belief that access to organic goodness should be for everyone who values 
+                        their well-being and cares about the environment. We are driven by the desire to foster a culture of healthy eating and to 
+                        connect with individuals, customers, and services who share our passion for promoting and consuming organic products while 
+                        advocating for the preservation of our precious agroecological environment. Our dedicated team is committed to providing 
+                        exceptional experiences, attending to our valued customers' concerns, and ensuring their satisfaction with every interaction. 
+                        Whether you visit our central location in Carlsbad or experience the convenience of our coastal truck service from Los Angeles 
+                        to San Diego, we strive to be your ultimate destination for authentic, high-quality organic foods, supporting your journey 
+                        towards a fulfilling and mindful lifestyle. With unwavering dedication to our core values, Bountiful Foods continues 
+                        to grow as a beacon of health and sustainability, catering to the diverse tastes and preferences of health-conscious individuals, 
+                        eco-conscious enthusiasts, and culinary professionals alike.</p>
+                </section>
+                <section class="contact-info">
+                    <h3>Contact Information</h3>
+                    <a>Address  123456, Carlsbad, California, US</a>
+                    <a href="#">+1 222 5555</a>
+                    <a href="#">bountifulfoods@domail.com</a>
+                    <div class="about-social">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-nuevo-96.png" alt="facebook icon from icons8"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="images/icons8-instagram-96.png" alt="instagram icon from icons8"></a>
+                        <a href="https://twitter.com/" target="_blank"><img src="images/icons8-twitter-circled-96.png" alt="twitter icon from icons8"></a>
+                    </div>    
+                
+                <div class="about-questions">
+
+                    <h3>Questions?</h3>
+                    <form method="get">
+                        <fieldset>
+                            <legend>Leave us a message</legend>
+                            <label class="top">Name*: <input type="text" name="fname" required></label>
+                            <label class="top">E-mail*<input type="email" name="email" placeholder="example@domain.com" required></label> 
+                            <label>Enter your message*: <textarea required></textarea></label>
+                            
+                        </fieldset>
+    
+                        <label><input type="hidden" name="timeSend" id="formDateSend"></label>
+                        
+                        <label><input type="submit" name="sendBtn" value="Send Message" class="sendMsg"></label>
+    
+                    </form> 
+                 </div>
+                </section>
+                <section class="map">
+                    <h3>How to Find Us</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.70972047016!2d-117.35801483067755!3d33.121643637586445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1680400576177!5m2!1ses!2sar" width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+                
+                
+            </main>
+            <footer>
+                <div class="address">
+                    <p>Address 123456, Carlsbad, California, US</p>
+                    <p>+1 222 5555</p>
+                    <a href="#">bountifulfoods@domail.com</a>                
+                </div>
+                <div class="inside-link">
+                    <p><a href="aboutus.html">About Us</a>  |  <a href="resources.html" target="_blank">References</a></p>
+                </div>
+                
+                <div class="social-link">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-nuevo-96.png" alt="facebook icon from icons8"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/icons8-instagram-96.png" alt="instagram icon from icons8"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/icons8-twitter-circled-96.png" alt="twitter icon from icons8"></a><br>
+                    
+                </div>
+                
+                <div class="footer-end">
+                <br><hr>
+                <h5>Bountiful Foods &copy; <span id="date"></span> | Pedro Mendieta | Bogotá Colombia</h5>
+                <span id="last-update"></span>
+                </div>
+            </footer>
+            <script src="scripts/app.js"></script>
+            
+        </body>
+    </html>

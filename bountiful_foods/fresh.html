@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods Home page for wdd230 final project">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Bountiful Foods</title>
+</head>
+        <body>
+            <header>
+                <div>
+                    <a href="index.html"><img src="images/bountiful-foods-logo.jpg" alt="bountiful foods logo" id="logo" loading="lazy"></a>
+                    <!--<h1>Bountiful Foods</h1>-->
+                    
+                    <button id="hamburgerBtn"> 
+                        <span>&#9776;</span> 
+                        <span>X</span> 
+                    </button>
+                </div>
+                <nav>    
+                    <ul id="primaryNav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="fresh.html">Fresh</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-nuevo-96.png" alt="facebook icon from icons8"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/icons8-instagram-96.png" alt="instagram icon from icons8"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/icons8-twitter-circled-96.png" alt="twitter icon from icons8"></a><br>
+                </div>    
+            </header>
+            <main class="fresh">
+                <div class="fresh-image">
+                    <img class="fresh-juice" src="https://via.placeholder.com/100x100/cccccc/9c9999?text=placeholder" data-src="images/juices-min.webp" alt="Delicious Juices">
+                </div>
+
+                <div class="form1">
+                    <form id="fill-info">
+                        <h2>Prepare Your Own Drink</h2>
+                        <fieldset>
+                            <legend>Fill this form to send your drink request</legend>
+                            <label class="top">First Name*: <input class="name" type="text" name="fname" required></label>
+                            <label class="top">E-mail*:<input class="email" type="email" name="email" placeholder="example@domain.com" required></label> 
+                            <label class="top">Phone Number*: <input class="number" type="tel" name="tel" required></label>   
+                            
+                        </fieldset>
+                        <fieldset class="fruits-lst">
+                            <legend>Select 3 different fruits:</legend>
+                            
+                        </fieldset>
+                        <fieldset>
+                            <label class="top">Special Instructions: <textarea class="text-instruction"></textarea></label>
+                        </fieldset>
+    
+                        <label><input type="hidden" name="timeSend" id="formDateSend"></label>
+                        
+                        <label><input type="submit" value="Send My Request" class="sendBtn"></label>
+    
+                    </form> 
+                </div>
+
+                <div class="confirmation">
+                    <form id="send-info">
+                        <div>
+                            <h3>Confirm your selection</h3>
+                            <hr>
+                            <div><b>Date:</b> <span class="order-date"></span></div>
+                            <hr>
+                            <div class="personal-info"></div>
+                            <hr>
+                            <div><b>Fruits Selected:</b> <span class="selected-fruit"></span></div>
+                            <div class="instructions"></div>
+                            
+                            <hr>
+                            <div><b>Total Amout of Nutritions:</b> <br><span class="total-amount">-----------Select some fruits to make your request------------</span></div>
+                            <hr>
+                        
+                        </div>
+                        <div class="buttons">
+                            <button class="confirm">Confirm</button>
+                            <button class="cancel">Cancel</button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+                
+                <section class="display">
+                    <h4>Your Selection</h4>
+                    <div>Fruits Selected: <br><span class="selection-fruits"></span></div>
+                    <br>
+                    <div><b>Total Amout of Nutritions:</b> <span  class="selections">0</span></div>
+                    
+                </section>
+
+                <div class="drink">
+                    <img src="https://via.placeholder.com/100x100/cccccc/9c9999?text=placeholder" data-src="images/juice-selection.webp" alt="strawberry_smoothie">
+
+                </div>
+            </main>
+
+            <footer>
+                <div class="address">
+                    <p>Address 123456, Carlsbad, California, US</p>
+                    <p>+1 222 5555</p>
+                    <a href="#">bountifulfoods@domail.com</a>                
+                </div>
+                <div class="inside-link">
+                    <p><a href="aboutus.html">About Us</a>  |  <a href="resources.html" target="_blank">References</a></p>
+                </div>
+                
+                <div class="social-link">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-nuevo-96.png" alt="facebook icon from icons8"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/icons8-instagram-96.png" alt="instagram icon from icons8"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/icons8-twitter-circled-96.png" alt="twitter icon from icons8"></a><br>
+                    
+                </div>
+                
+                <div class="footer-end">
+                <br><hr>
+                <h5>Bountiful Foods &copy; <span id="date"></span> | Pedro Mendieta | Bogotá Colombia</h5>
+                <span id="last-update"></span>
+                </div>
+            </footer>
+            <script src="scripts/app.js"></script>
+            <script src="scripts/fresh.js"></script>
+            
+        </body>
+    </html>
