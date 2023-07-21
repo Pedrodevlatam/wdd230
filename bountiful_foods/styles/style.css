@@ -556,34 +556,23 @@
   
     /*------FRESH-------*/
     /*----ABOUT US------*/
-    .owner h3 {
-      grid-column: 1/3;
-      grid-row: 1/2;
-    }
-    .img-owner {
-      grid-column: 1/2;
+    .owner h3{ grid-column: 1/3; grid-row: 1/2;}
+    .img-owner{ grid-column: 1/2;
+       grid-row: 2/3;
+       width: 70%;
+      }
+    .owner p { grid-column: 2/3; grid-row: 2/3; align-self: center;}
+   
+    .address{ grid-row: 1/3;}
+    .inside-link{ grid-column: 3/4;
       grid-row: 2/3;
-      width: 90%;
-    }
-    .owner p {
-      grid-column: 2/3;
-      grid-row: 2/3;
-      align-self: center;
-    }
+       justify-self: center;
+      }
   
-    .address {
-      grid-row: 1/3;
-    }
-    .inside-link {
-      grid-column: 3/4;
-      grid-row: 2/3;
-      justify-self: center;
-    }
-  
-    .social-link {
+    .social-link{
       grid-row: 1/2;
-      display: flex;
-    }
+       display: flex;}
+    
   }
   
   /*-------LARGE VIEW-------*/
@@ -713,13 +702,11 @@
       grid-column: 1/2;
       grid-row: 1/4;
     }
-    .drink,
-    .fresh-juice,
-    .display {
+    .drink, .fresh-juice, .display{
       width: 100%;
       align-self: center;
     }
-    .confirmation form {
+    .confirmation form{
       left: 30%;
       right: 30%;
     }
